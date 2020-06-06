@@ -1,5 +1,5 @@
 {
-  "name": "finaltracker",
+  "name": "hearthgraphql",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -11,8 +11,8 @@
     }
   },
   "scripts": {
-    "dev:server": "yarn workspace server dev",
-    "scraper:seed": "yarn workspace scraper scrape"
+    "dev:server": "yarn workspace @hearthgraphql/server dev",
+    "scraper:seed": "yarn workspace @hearthgraphql/scraper scrape"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",

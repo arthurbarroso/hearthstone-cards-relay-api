@@ -19,3 +19,7 @@ This repository contains two packages:
 After doing the setup above all you'll need to do to get your server up and running is run two commands on the root of the repository:
 - `yarn scraper:seed` to run the scraper and get the cards to your mongo database.
 - `yarn dev:server` to run nodemon on your server and start playing with it.
+
+
+#### Need help?
+Feel free to open an issue or shoot me a personal message at `arthur otus#7121` on discord.
