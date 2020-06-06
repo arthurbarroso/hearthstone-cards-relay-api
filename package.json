@@ -10,6 +10,10 @@
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook || true"
     }
   },
+  "scripts": {
+    "dev:server": "yarn workspace server dev",
+    "scraper:seed": "yarn workspace scraper scrape"
+  },
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",
     "@commitlint/config-conventional": "^8.3.4",

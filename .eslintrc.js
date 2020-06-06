@@ -55,7 +55,9 @@ module.exports = {
     "react/jsx-filename-extension": "off",
     "react/state-in-constructor": "off",
     "react/jsx-props-no-spreading": "off",
-    "react/no-unescaped-entities": "off"
+    "react/no-unescaped-entities": "off",
+    'no-plusplus': 'off',
+    'no-await-in-loop': 'off'
   },
   "overrides": [
     {
