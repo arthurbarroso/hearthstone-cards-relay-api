@@ -12,7 +12,8 @@
   },
   "scripts": {
     "dev:server": "yarn workspace @hearthgraphql/server dev",
-    "scraper:seed": "yarn workspace @hearthgraphql/scraper scrape"
+    "scraper:seed": "yarn workspace @hearthgraphql/scraper scrape",
+    "schema:generate": "yarn workspace @hearthgraphql/server graphql get-schema"
   },
   "devDependencies": {
     "@commitlint/cli": "^8.3.4",
