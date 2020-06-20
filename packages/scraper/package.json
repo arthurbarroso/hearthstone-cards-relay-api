@@ -1,7 +1,7 @@
 {
   "name": "@hearthgraphql/scraper",
   "version": "1.0.0",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "license": "MIT",
   "dependencies": {
     "axios": "^0.19.2",
@@ -10,6 +10,6 @@
     "ts-node": "^8.10.2"
   },
   "scripts": {
-    "scrape": "ts-node index.ts"
+    "scrape": "ts-node ./src/index.ts"
   }
 }

@@ -1,6 +1,6 @@
-const mongoose = require('mongoose');
+import mongoose, { Document } from 'mongoose';
 
-export type CardModel = Document & {
+export type CardModel = mongoose.Document & {
   collectible: Number;
   slug: String;
   classId: Number;
